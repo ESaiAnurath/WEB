@@ -1,0 +1,66 @@
+/* Updated styling for Symptom Analyser to match the website */
+
+.symptom-analyser-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #79c9c5;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Match font */
+  }
+  
+  .symptom-analyser-container h1 {
+    font-size: 2rem;
+    color: rgba(100, 50, 150, 20); /* Adjust color to match header styling */
+  }
+  
+  .symptom-analyser-container p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .question-step {
+    display: none;
+    padding: 1.5rem;
+  }
+  
+  .active-step {
+    display: block;
+  }
+  
+  .question-step h2 {
+    font-size: 1.5rem;
+    color: #20128e; /* Primary color for step headings */
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  button {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #20128e; /* Match the button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #1a0e7d; /* Darken on hover */
+  }
+  
+  #results {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
